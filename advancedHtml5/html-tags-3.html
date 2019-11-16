@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- Use GET, not POST -->
+
+    <span></span>
+
+    <div>
+        <form action="" method="get">
+
+                <label for="firstName">First Name: </label> <br>
+                <input type="text" name="firstName" id="firstName" placeholder="Your First Name"> <br> <br>
+        
+                <label for="lastName">Last Name: </label> <br>
+                <input type="text" name="lastName" id="lastName" placeholder="Your Last Name"> <br> <br>
+        
+                <label for="dob">Date of Birth: </label> <br>
+                <input type="date" name="dob" id="dob"> <br> <br>
+        
+                <label for="gender">Gender: </label> <br>
+                Male <input type="radio" name="gender" id="gender" value="male">
+                Female <input type="radio" name="gender" id="gender" value="female">
+                Other <input type="radio" name="gender" id="gender" value="other"> 
+        
+                <br> <br>
+        
+                <label for="pets">Pets: </label> <br>
+                Dogs <input type="checkbox" name="pets" id="pets" value="dogs">
+                Cats <input type="checkbox" name="pets" id="pets" value="cats">
+        
+                <br> <br>
+        
+                <label for="cars">Cars</label> <br>
+                <select name="cars" id="cars">
+                    <option value="bmw">BMW</option>
+                    <option value="honda">Honda</option>
+                    <option value="audi">Audi</option>
+                    <option value="jaguar">Jaguar</option>
+                </select>
+        
+                <br> <br>
+        
+        
+                <label for="email">Email: </label> <br>
+                <input type="email" name="email" id="email" placeholder="johndoe@example.com" required> <br> <br>
+        
+                <label for="password">Password: </label> <br>
+                <input type="password" name="password" id="password" placeholder="123DSK#!wer123" required> <br> <br>
+        
+                <textarea name="comment" id="" cols="30" rows="10" placeholder="Comments here..."></textarea> <br> <br>
+        
+                <input type="submit" name="submit" value="Register">
+        
+                <input type="reset" name="reset" value="Reset">
+        
+            </form>
+    </div>
+    
+</body>
+</html>

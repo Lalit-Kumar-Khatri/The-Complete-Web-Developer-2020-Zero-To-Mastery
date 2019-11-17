@@ -1,0 +1,57 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url("bgImage.jpg");
+    background-size: cover;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.2);
+    cursor: pointer;
+}
+
+p {
+    line-height: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Poiret One', cursive;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:first-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}

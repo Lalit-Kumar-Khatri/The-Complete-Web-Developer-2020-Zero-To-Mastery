@@ -1,0 +1,9 @@
+body {
+    background: rgb(0,36,28);
+background: linear-gradient(90deg, rgba(0,36,28,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.text-center{
+    color: lawngreen;
+    margin-top: 25px;
+}

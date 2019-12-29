@@ -1,6 +1,4 @@
 const largeNumber = 356;
 
 
-module.exports = {
-    largeNumber: largeNumber
-};
+export default largeNumber;
